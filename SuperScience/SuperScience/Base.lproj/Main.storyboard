@@ -29,16 +29,6 @@
             </objects>
             <point key="canvasLocation" x="644" y="-225"/>
         </scene>
-        <!--VestibularScreen-->
-        <scene sceneID="cwH-HP-Owt">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Vestibular" referencedIdentifier="VestibularScreen" id="I8Q-rb-MEE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Y0R-8P-hZD"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T6H-RN-h62" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="643" y="-60"/>
-        </scene>
         <!--AmigosScreen-->
         <scene sceneID="qaj-Gf-3tD">
             <objects>
@@ -71,7 +61,6 @@
                     <connections>
                         <segue destination="zVz-gu-rzl" kind="relationship" relationship="viewControllers" id="OgY-id-h2A"/>
                         <segue destination="Y05-SZ-YvY" kind="relationship" relationship="viewControllers" id="dVN-Tp-8UW"/>
-                        <segue destination="I8Q-rb-MEE" kind="relationship" relationship="viewControllers" id="DuV-UG-okw"/>
                         <segue destination="utT-nh-cWQ" kind="relationship" relationship="viewControllers" id="3bf-KR-PWg"/>
                         <segue destination="FWL-7M-gzJ" kind="relationship" relationship="viewControllers" id="wFE-R5-V7A"/>
                     </connections>
