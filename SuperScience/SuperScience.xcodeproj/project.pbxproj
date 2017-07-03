@@ -12,6 +12,11 @@
 		669FE6D11F0AB32400B579DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6CF1F0AB32400B579DE /* Main.storyboard */; };
 		669FE6D31F0AB32400B579DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6D21F0AB32400B579DE /* Assets.xcassets */; };
 		669FE6D61F0AB32400B579DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6D41F0AB32400B579DE /* LaunchScreen.storyboard */; };
+		669FE6DE1F0AB68700B579DE /* Inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6DD1F0AB68700B579DE /* Inicio.storyboard */; };
+		669FE6E01F0AB70400B579DE /* Conceitos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6DF1F0AB70400B579DE /* Conceitos.storyboard */; };
+		669FE6E21F0AB72A00B579DE /* Vestibular.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6E11F0AB72A00B579DE /* Vestibular.storyboard */; };
+		669FE6E41F0AB77800B579DE /* Amigos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6E31F0AB77800B579DE /* Amigos.storyboard */; };
+		669FE6E61F0AB7E600B579DE /* Loja.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6E51F0AB7E600B579DE /* Loja.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		669FE6D21F0AB32400B579DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669FE6D51F0AB32400B579DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		669FE6D71F0AB32400B579DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		669FE6DD1F0AB68700B579DE /* Inicio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Inicio.storyboard; sourceTree = "<group>"; };
+		669FE6DF1F0AB70400B579DE /* Conceitos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Conceitos.storyboard; sourceTree = "<group>"; };
+		669FE6E11F0AB72A00B579DE /* Vestibular.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Vestibular.storyboard; sourceTree = "<group>"; };
+		669FE6E31F0AB77800B579DE /* Amigos.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Amigos.storyboard; sourceTree = "<group>"; };
+		669FE6E51F0AB7E600B579DE /* Loja.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Loja.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				669FE6CB1F0AB32400B579DE /* AppDelegate.swift */,
 				669FE6CD1F0AB32400B579DE /* ViewController.swift */,
 				669FE6CF1F0AB32400B579DE /* Main.storyboard */,
+				669FE6E51F0AB7E600B579DE /* Loja.storyboard */,
+				669FE6E31F0AB77800B579DE /* Amigos.storyboard */,
+				669FE6E11F0AB72A00B579DE /* Vestibular.storyboard */,
+				669FE6DF1F0AB70400B579DE /* Conceitos.storyboard */,
+				669FE6DD1F0AB68700B579DE /* Inicio.storyboard */,
 				669FE6D21F0AB32400B579DE /* Assets.xcassets */,
 				669FE6D41F0AB32400B579DE /* LaunchScreen.storyboard */,
 				669FE6D71F0AB32400B579DE /* Info.plist */,
@@ -124,9 +139,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669FE6E41F0AB77800B579DE /* Amigos.storyboard in Resources */,
 				669FE6D61F0AB32400B579DE /* LaunchScreen.storyboard in Resources */,
+				669FE6E21F0AB72A00B579DE /* Vestibular.storyboard in Resources */,
 				669FE6D31F0AB32400B579DE /* Assets.xcassets in Resources */,
+				669FE6E61F0AB7E600B579DE /* Loja.storyboard in Resources */,
+				669FE6E01F0AB70400B579DE /* Conceitos.storyboard in Resources */,
 				669FE6D11F0AB32400B579DE /* Main.storyboard in Resources */,
+				669FE6DE1F0AB68700B579DE /* Inicio.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
