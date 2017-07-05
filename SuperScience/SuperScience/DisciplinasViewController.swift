@@ -8,8 +8,11 @@
 
 import UIKit
 
-class DisciplinasViewController: UIViewController {
+class DisciplinasViewController: UITableViewController {
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
