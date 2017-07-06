@@ -39,10 +39,11 @@
             </objects>
             <point key="canvasLocation" x="-1003" y="195"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="fa3-hn-4sf">
             <objects>
-                <tabBarController id="UzU-Hl-gwu" customClass="ViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7c-au-qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController id="UzU-Hl-gwu" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="QZP-Wa-XGa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -52,7 +53,6 @@
                         <segue destination="fZZ-Wu-fgY" kind="relationship" relationship="viewControllers" id="jop-7X-Tqi"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E7c-au-qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2194" y="-48"/>
         </scene>
