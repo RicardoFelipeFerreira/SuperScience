@@ -27,7 +27,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2l-eR-MjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1323" y="-67"/>
+            <point key="canvasLocation" x="-1299" y="93"/>
         </scene>
         <!--Seila-->
         <scene sceneID="g2S-Hx-EYu">
@@ -37,7 +37,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehj-nU-rNS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1328" y="30"/>
+            <point key="canvasLocation" x="-1299" y="-49"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fa3-hn-4sf">
