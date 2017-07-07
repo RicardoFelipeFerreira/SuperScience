@@ -12,7 +12,9 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     
     @IBOutlet weak var table: UITableView!
     
-    var disciplinas = ["Física", "Química", "Biologia", "Sexo "]
+    var disciplinas = ["Física", "Química", "Biologia", "Matematica"]
+    var icons = ["fisica", "biologia", "quimica", "rick"]
+    var iconsSelecionado: String?
     var disciplinaSelecionada: String?
     
     
@@ -30,7 +32,8 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! TableViewCell
         
-        cell.disciplinaImage.image = #imageLiteral(resourceName: "rick")
+        cell.disciplinaImage.image = UIImage.init(named: icons[indexPath.row])
+            
         cell.disciplinaLabel.text = disciplinas[indexPath.row]
         
         return cell
@@ -59,13 +62,12 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     
     
     }
-///Button Cancel
-   //searchBarCancelButton = true
+
     
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
-        disciplinas = ["Física", "Química", "Biologia", "Sexo "]
+        disciplinas = ["Física", "Química", "Biologia", "Matemática"]
         if searchText == "" {
             table.reloadData()
             return
