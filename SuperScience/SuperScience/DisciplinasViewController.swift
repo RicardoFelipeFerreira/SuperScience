@@ -8,8 +8,9 @@
 
 import UIKit
 
-class DisciplinasViewController: UITableViewController {
+class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
+    @IBOutlet weak var table: UITableView!
     
     var disciplinas = ["Física", "Química", "Biologia", "Sexo "]
     var disciplinaSelecionada: String?
@@ -21,17 +22,11 @@ class DisciplinasViewController: UITableViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return disciplinas.count
     }
 
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! TableViewCell
         
@@ -41,7 +36,7 @@ class DisciplinasViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         disciplinaSelecionada = disciplinas[indexPath.row]
         
@@ -64,6 +59,19 @@ class DisciplinasViewController: UITableViewController {
     
     
     }
+///Button Cancel
+   //searchBarCancelButton = true
     
-
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        disciplinas = ["Física", "Química", "Biologia", "Sexo "]
+        if searchText == "" {
+            table.reloadData()
+            return
+        }
+        disciplinas = disciplinas.filter({ $0.uppercased().contains(searchText.uppercased())  })
+        table.reloadData()
+    }
+    
 }

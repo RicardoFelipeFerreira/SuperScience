@@ -17,7 +17,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9OM-1e-HDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-974" y="-215"/>
+            <point key="canvasLocation" x="-1299" y="-211"/>
         </scene>
         <!--Conta-->
         <scene sceneID="Ijh-fB-N74">
@@ -27,7 +27,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2l-eR-MjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-998" y="-30"/>
+            <point key="canvasLocation" x="-1323" y="-67"/>
         </scene>
         <!--Seila-->
         <scene sceneID="g2S-Hx-EYu">
@@ -37,12 +37,11 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehj-nU-rNS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1003" y="195"/>
+            <point key="canvasLocation" x="-1328" y="30"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fa3-hn-4sf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E7c-au-qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="UzU-Hl-gwu" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="QZP-Wa-XGa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -53,6 +52,7 @@
                         <segue destination="fZZ-Wu-fgY" kind="relationship" relationship="viewControllers" id="jop-7X-Tqi"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E7c-au-qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2194" y="-48"/>
         </scene>
