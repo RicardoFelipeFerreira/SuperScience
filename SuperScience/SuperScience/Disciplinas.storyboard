@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Disciplinas View Controller-->
+        <!--Disciplinas-->
         <scene sceneID="MxU-gJ-FKF">
             <objects>
                 <viewController id="Xoq-SS-EkJ" customClass="DisciplinasViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
@@ -24,7 +24,7 @@
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-eI-nFI">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="barTintColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.24595606327056885" green="0.43002530932426453" blue="0.6749383807182312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="dS1-zQ-7sH"/>
@@ -84,11 +84,6 @@
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="zS9-64-9vl"/>
                                 </connections>
                             </tableView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEY-tM-eQF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -101,7 +96,7 @@
                             <constraint firstItem="OeN-9g-SEG" firstAttribute="top" secondItem="Vmi-MH-jiW" secondAttribute="bottom" id="sTV-ol-hJO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Edh-w6-Hft"/>
+                    <navigationItem key="navigationItem" title="Disciplinas" id="Edh-w6-Hft"/>
                     <connections>
                         <outlet property="table" destination="Vmi-MH-jiW" id="p12-wW-pR2"/>
                         <segue destination="xQe-rj-gA1" kind="show" identifier="showDisciplina" id="dBT-Cc-FBv"/>
@@ -165,11 +160,6 @@
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="63k-yM-cY5"/>
                                 </connections>
                             </searchBar>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xz5-ZA-O3N">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -245,11 +235,6 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WyG-gX-Utd">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -272,9 +257,11 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZkT-Tz-LsA" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IpW-xP-D4A">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="IpW-xP-D4A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.17125700058817608" green="0.32771370621237839" blue="0.84921668320105814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
