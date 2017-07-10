@@ -13,7 +13,7 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     
     @IBOutlet weak var table: UITableView!
     
-    var disciplinas = ["Física", "Química", "Biologia"]
+    var disciplinas = ["Física", "Biologia", "Química"]
     var icons = ["fisica", "biologia", "quimica"]
     var sets = ["setaVermelho", "setaVerde", "setaAmarelo"]
     var colors = [UIColor(red: 254.0/255.0, green: 241.0/255.0, blue: 241.0/255.0, alpha: 1.0),

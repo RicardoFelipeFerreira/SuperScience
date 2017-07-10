@@ -20,24 +20,14 @@
             <point key="canvasLocation" x="-1299" y="-211"/>
         </scene>
         <!--Conta-->
-        <scene sceneID="Ijh-fB-N74">
+        <scene sceneID="aa8-Gh-1wh">
             <objects>
-                <viewControllerPlaceholder storyboardName="Conta" id="oao-mV-gDy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="qKg-kT-aDy"/>
+                <viewControllerPlaceholder storyboardName="Conta" id="J3S-Sd-WMI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Account" image="profile" id="J8y-jG-O3c"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c2l-eR-MjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hik-we-JXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1299" y="93"/>
-        </scene>
-        <!--Seila-->
-        <scene sceneID="g2S-Hx-EYu">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Seila" id="wBe-vk-7UR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Rsu-jK-355"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ehj-nU-rNS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1299" y="-49"/>
+            <point key="canvasLocation" x="-1323" y="-49"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fa3-hn-4sf">
@@ -50,6 +40,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="fZZ-Wu-fgY" kind="relationship" relationship="viewControllers" id="jop-7X-Tqi"/>
+                        <segue destination="J3S-Sd-WMI" kind="relationship" relationship="viewControllers" id="0gd-h0-17Y"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7c-au-qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -57,4 +48,7 @@
             <point key="canvasLocation" x="-2194" y="-48"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profile" width="25" height="25"/>
+    </resources>
 </document>

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		666FA9CF1F0D657D00FB574F /* Disciplinas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FA9CE1F0D657D00FB574F /* Disciplinas.storyboard */; };
 		666FA9D11F0D65B000FB574F /* Conta.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FA9D01F0D65B000FB574F /* Conta.storyboard */; };
-		666FA9D31F0D65CE00FB574F /* Seila.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FA9D21F0D65CE00FB574F /* Seila.storyboard */; };
 		666FA9D71F0D6BE200FB574F /* DisciplinasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666FA9D61F0D6BE200FB574F /* DisciplinasViewController.swift */; };
 		669FE6CC1F0AB32400B579DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FE6CB1F0AB32400B579DE /* AppDelegate.swift */; };
 		669FE6D11F0AB32400B579DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6CF1F0AB32400B579DE /* Main.storyboard */; };
@@ -19,12 +18,12 @@
 		D70877C11F0EC6B200FB5A19 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */; };
 		D70877C31F0ECA6000FB5A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70877C21F0ECA6000FB5A19 /* ViewController.swift */; };
 		D70877C71F0ED60C00FB5A19 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70877C61F0ED60C00FB5A19 /* MyCollectionViewCell.swift */; };
+		D771A6471F140C0500CAD06F /* ContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D771A6461F140C0500CAD06F /* ContaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		666FA9CE1F0D657D00FB574F /* Disciplinas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Disciplinas.storyboard; sourceTree = "<group>"; };
 		666FA9D01F0D65B000FB574F /* Conta.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Conta.storyboard; sourceTree = "<group>"; };
-		666FA9D21F0D65CE00FB574F /* Seila.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Seila.storyboard; sourceTree = "<group>"; };
 		666FA9D61F0D6BE200FB574F /* DisciplinasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinasViewController.swift; sourceTree = "<group>"; };
 		669FE6C81F0AB32400B579DE /* SuperScience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperScience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669FE6CB1F0AB32400B579DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D70877C21F0ECA6000FB5A19 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D70877C61F0ED60C00FB5A19 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCollectionViewCell.swift; path = ../MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		D771A6461F140C0500CAD06F /* ContaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,6 @@
 				666FA9D61F0D6BE200FB574F /* DisciplinasViewController.swift */,
 				D70877C61F0ED60C00FB5A19 /* MyCollectionViewCell.swift */,
 				669FE6CF1F0AB32400B579DE /* Main.storyboard */,
-				666FA9D21F0D65CE00FB574F /* Seila.storyboard */,
 				666FA9CE1F0D657D00FB574F /* Disciplinas.storyboard */,
 				666FA9D01F0D65B000FB574F /* Conta.storyboard */,
 				669FE6D21F0AB32400B579DE /* Assets.xcassets */,
@@ -80,6 +79,7 @@
 				669FE6D71F0AB32400B579DE /* Info.plist */,
 				D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */,
 				D70877C21F0ECA6000FB5A19 /* ViewController.swift */,
+				D771A6461F140C0500CAD06F /* ContaViewController.swift */,
 				D70559B01F0F19DA00C9373C /* DetailViewController.swift */,
 			);
 			path = SuperScience;
@@ -150,7 +150,6 @@
 				666FA9D11F0D65B000FB574F /* Conta.storyboard in Resources */,
 				669FE6D31F0AB32400B579DE /* Assets.xcassets in Resources */,
 				669FE6D11F0AB32400B579DE /* Main.storyboard in Resources */,
-				666FA9D31F0D65CE00FB574F /* Seila.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +164,7 @@
 				D70877C71F0ED60C00FB5A19 /* MyCollectionViewCell.swift in Sources */,
 				D70877C11F0EC6B200FB5A19 /* TableViewCell.swift in Sources */,
 				D70559B11F0F19DA00C9373C /* DetailViewController.swift in Sources */,
+				D771A6471F140C0500CAD06F /* ContaViewController.swift in Sources */,
 				D70877C31F0ECA6000FB5A19 /* ViewController.swift in Sources */,
 				669FE6CC1F0AB32400B579DE /* AppDelegate.swift in Sources */,
 			);
