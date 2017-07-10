@@ -45,6 +45,8 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         
         cell.backgroundColor = colors[indexPath.row]
         
+//        cell.tintColor = disciplinas[indexPath.row]
+        
         return cell
     }
     
