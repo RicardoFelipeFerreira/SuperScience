@@ -24,6 +24,7 @@
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-eI-nFI">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
+                                <color key="barTintColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="dS1-zQ-7sH"/>
@@ -83,6 +84,11 @@
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="zS9-64-9vl"/>
                                 </connections>
                             </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEY-tM-eQF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -117,7 +123,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Cda-tm-WOe">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Cda-tm-WOe">
                                 <rect key="frame" x="0.0" y="108" width="375" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FRY-jE-q1Q">
@@ -151,21 +157,29 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-n0-Fch">
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-n0-Fch">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="63k-yM-cY5"/>
                                 </connections>
                             </searchBar>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xz5-ZA-O3N">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="M2j-ZZ-kSE" firstAttribute="top" secondItem="Cda-tm-WOe" secondAttribute="bottom" id="6aU-2T-Cif"/>
-                            <constraint firstItem="Cda-tm-WOe" firstAttribute="leading" secondItem="oIb-P7-qFe" secondAttribute="leading" id="TO7-mS-EOS"/>
-                            <constraint firstAttribute="trailing" secondItem="Cda-tm-WOe" secondAttribute="trailing" id="VlR-DR-urP"/>
-                            <constraint firstItem="Cda-tm-WOe" firstAttribute="top" secondItem="Cry-FF-KVn" secondAttribute="bottom" id="myb-AI-FwD"/>
+                            <constraint firstItem="vDM-n0-Fch" firstAttribute="top" secondItem="Cry-FF-KVn" secondAttribute="bottom" id="G7s-uu-wNM"/>
+                            <constraint firstItem="Cda-tm-WOe" firstAttribute="top" secondItem="vDM-n0-Fch" secondAttribute="bottom" id="P0j-Qo-kaJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Cda-tm-WOe" secondAttribute="trailing" id="ZCF-TR-Gru"/>
+                            <constraint firstItem="Cda-tm-WOe" firstAttribute="bottom" secondItem="M2j-ZZ-kSE" secondAttribute="top" id="bZE-XY-Vge"/>
+                            <constraint firstItem="Cda-tm-WOe" firstAttribute="leading" secondItem="oIb-P7-qFe" secondAttribute="leading" id="hx4-e3-m0L"/>
+                            <constraint firstItem="Cda-tm-WOe" firstAttribute="leading" secondItem="vDM-n0-Fch" secondAttribute="leading" id="ufM-tc-rXC"/>
+                            <constraint firstItem="Cda-tm-WOe" firstAttribute="trailing" secondItem="vDM-n0-Fch" secondAttribute="trailing" id="vWQ-uT-7Cb"/>
                         </constraints>
                     </view>
                     <connections>
@@ -175,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Max-eu-Uju" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="970" y="107"/>
+            <point key="canvasLocation" x="968.79999999999995" y="106.59670164917542"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nXw-M5-uG7">
@@ -189,17 +203,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-mX-CnY">
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-mX-CnY">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="ICx-dc-Gv9"/>
                                 </connections>
                             </searchBar>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="byI-4X-ZJF">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="byI-4X-ZJF">
                                 <rect key="frame" x="0.0" y="108" width="375" height="559"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FiS-HW-SN7">
                                     <size key="itemSize" width="163" height="189"/>
@@ -232,13 +245,27 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WyG-gX-Utd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QNn-mX-CnY" firstAttribute="top" secondItem="YC2-gc-5sZ" secondAttribute="bottom" id="7SZ-Jg-YEK"/>
+                            <constraint firstItem="byI-4X-ZJF" firstAttribute="bottom" secondItem="Rku-2M-2T2" secondAttribute="top" id="DCc-vB-UHo"/>
+                            <constraint firstItem="byI-4X-ZJF" firstAttribute="leading" secondItem="eQ7-gi-MIV" secondAttribute="leading" id="Rgq-LW-ZQI"/>
+                            <constraint firstItem="byI-4X-ZJF" firstAttribute="leading" secondItem="QNn-mX-CnY" secondAttribute="leading" id="bBm-cz-qmt"/>
+                            <constraint firstItem="byI-4X-ZJF" firstAttribute="top" secondItem="QNn-mX-CnY" secondAttribute="bottom" id="e52-W5-QjG"/>
+                            <constraint firstItem="byI-4X-ZJF" firstAttribute="trailing" secondItem="QNn-mX-CnY" secondAttribute="trailing" id="ggg-Ju-Il0"/>
+                            <constraint firstAttribute="trailing" secondItem="byI-4X-ZJF" secondAttribute="trailing" id="noL-5M-vOF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MtS-Eo-eYd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1967" y="107"/>
+            <point key="canvasLocation" x="1965.5999999999999" y="106.59670164917542"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="I9t-2Z-DcT">
