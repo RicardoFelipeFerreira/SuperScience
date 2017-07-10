@@ -13,7 +13,7 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var disciplinaImage: UIImageView!
     @IBOutlet weak var disciplinaLabel: UILabel!
-    
+    @IBOutlet weak var setaImage: UIImageView!
     
     
 

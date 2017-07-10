@@ -14,6 +14,11 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     
     var disciplinas = ["Física", "Química", "Biologia", "Matematica"]
     var icons = ["fisica", "biologia", "quimica", "rick"]
+    var sets = ["setaVermelho", "setaVerde", "setaAmarelo", "setaVerde"]
+    var colors = [UIColor(red: 254.0/255.0, green: 241.0/255.0, blue: 241.0/255.0, alpha: 1.0),
+                  UIColor(red: 242.0/255.0, green: 250.0/255.0, blue: 246.0/255.0, alpha: 1.0),
+                  UIColor(red: 253.0/255.0, green: 253.0/255.0, blue: 243.0/255.0, alpha: 1.0),
+                  UIColor(red: 34.0/255.0, green: 98.0/255.0, blue: 171.0/255.0, alpha: 1.0)]
     var iconsSelecionado: String?
     var disciplinaSelecionada: String?
     
@@ -35,6 +40,10 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         cell.disciplinaImage.image = UIImage.init(named: icons[indexPath.row])
             
         cell.disciplinaLabel.text = disciplinas[indexPath.row]
+        
+        cell.setaImage?.image = UIImage.init(named: sets[indexPath.row])
+        
+        cell.backgroundColor = colors[indexPath.row]
         
         return cell
     }
