@@ -43,7 +43,6 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! TableViewCell
         
         cell.disciplinaImage.image = UIImage.init(named: icons[indexPath.row])
-        
             
         cell.disciplinaLabel.text = disciplinas[indexPath.row]
         

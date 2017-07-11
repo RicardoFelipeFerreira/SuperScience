@@ -200,10 +200,10 @@
             </objects>
             <point key="canvasLocation" x="968.79999999999995" y="106.59670164917542"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Collection View Controller Two-->
         <scene sceneID="VdN-9Y-UmQ">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cBI-29-ndU" customClass="CollectionViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cBI-29-ndU" customClass="CollectionViewControllerTwo" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qGv-gr-5Bt"/>
                         <viewControllerLayoutGuide type="bottom" id="Qgo-iZ-mJk"/>
@@ -230,7 +230,7 @@
                                     <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collection_cell" id="OTp-cE-4NV" customClass="MyCollectionViewCell" customModule="SuperScience" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collection_cellTwo" id="OTp-cE-4NV" customClass="MyCollectionViewCellTwo" customModule="SuperScience" customModuleProvider="target">
                                         <rect key="frame" x="10" y="10" width="172" height="172"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -264,8 +264,8 @@
                                             </mask>
                                         </variation>
                                         <connections>
-                                            <outlet property="myImageViewCell" destination="OWm-j8-nXj" id="ryL-Pa-krS"/>
-                                            <outlet property="myLabelViewCell" destination="ofN-Q6-BXm" id="C0Y-no-JkX"/>
+                                            <outlet property="myImageViewCellTwo" destination="OWm-j8-nXj" id="ZYT-ox-Rcb"/>
+                                            <outlet property="myLabelViewCellTwo" destination="ofN-Q6-BXm" id="7nY-Vu-PxP"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -284,8 +284,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myCollectionViewCell" destination="6Lh-Ic-Q3a" id="Mfr-zZ-JZz"/>
-                        <segue destination="M8p-Fe-BgF" kind="show" identifier="ShowDetailFinal" id="tIW-wl-cqh"/>
+                        <outlet property="MyCollectionViewCellTwo" destination="6Lh-Ic-Q3a" id="slF-ga-Ssc"/>
+                        <segue destination="M8p-Fe-BgF" kind="show" identifier="showDetailFinal" id="tIW-wl-cqh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwA-eD-Smj" userLabel="First Responder" sceneMemberID="firstResponder"/>
