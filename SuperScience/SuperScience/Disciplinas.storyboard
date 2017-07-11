@@ -24,7 +24,7 @@
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-eI-nFI">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="barTintColor" red="0.24595606327056885" green="0.43002530932426453" blue="0.6749383807182312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="dS1-zQ-7sH"/>
@@ -156,7 +156,7 @@
                             </collectionView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-n0-Fch">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="barTintColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="63k-yM-cY5"/>
@@ -164,6 +164,7 @@
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="vDM-n0-Fch" firstAttribute="top" secondItem="Cry-FF-KVn" secondAttribute="bottom" id="G7s-uu-wNM"/>
                             <constraint firstItem="Cda-tm-WOe" firstAttribute="top" secondItem="vDM-n0-Fch" secondAttribute="bottom" id="P0j-Qo-kaJ"/>
@@ -197,7 +198,7 @@
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-mX-CnY">
                                 <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="barTintColor" red="0.13333333333333333" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.13333333333333333" green="0.3529411764705882" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="ICx-dc-Gv9"/>
@@ -239,6 +240,7 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.16078431372549018" green="0.3529411764705882" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QNn-mX-CnY" firstAttribute="top" secondItem="YC2-gc-5sZ" secondAttribute="bottom" id="7SZ-Jg-YEK"/>
                             <constraint firstItem="byI-4X-ZJF" firstAttribute="bottom" secondItem="Rku-2M-2T2" secondAttribute="top" id="DCc-vB-UHo"/>
@@ -257,13 +259,13 @@
         <!--Navigation Controller-->
         <scene sceneID="I9t-2Z-DcT">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="ZkT-Tz-LsA" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZkT-Tz-LsA" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="IpW-xP-D4A">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IpW-xP-D4A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" red="0.17125700058817608" green="0.32771370621237839" blue="0.84921668320105814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.18022409081459045" green="0.37577319145202637" blue="0.70799541473388672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
