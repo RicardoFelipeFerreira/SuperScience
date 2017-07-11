@@ -39,6 +39,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         cell.myImageViewCell.image = UIImage(named: images[indexPath.row])
         cell.myLabelViewCell.text = labels[indexPath.row]
         
+        //deixar arredondado
+        //cell.layer.cornerRadius = 20
+        
+        
 //        cell.backgroundColor = indexPath.row % 2 == 0 ? .red : .yellow
         
         return cell
