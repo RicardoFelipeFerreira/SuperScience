@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="-18.399999999999999" y="107.49625187406298"/>
         </scene>
-        <!--View Controller-->
+        <!--Collection View Controller-->
         <scene sceneID="ZPQ-at-ZgA">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="xQe-rj-gA1" customClass="ViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="xQe-rj-gA1" customClass="CollectionViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cry-FF-KVn"/>
                         <viewControllerLayoutGuide type="bottom" id="M2j-ZZ-kSE"/>
@@ -200,10 +200,10 @@
             </objects>
             <point key="canvasLocation" x="968.79999999999995" y="106.59670164917542"/>
         </scene>
-        <!--View Controller-->
+        <!--Collection View Controller-->
         <scene sceneID="VdN-9Y-UmQ">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cBI-29-ndU" customClass="ViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="cBI-29-ndU" customClass="CollectionViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qGv-gr-5Bt"/>
                         <viewControllerLayoutGuide type="bottom" id="Qgo-iZ-mJk"/>
@@ -213,7 +213,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="GXq-MZ-drP">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
                                 <color key="barTintColor" red="0.14901960780000001" green="0.35294117650000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -221,7 +221,7 @@
                                 </connections>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6Lh-Ic-Q3a">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f8q-DY-uA7">
                                     <size key="itemSize" width="172" height="172"/>
@@ -328,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HFs-ee-bEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2877.5999999999999" y="106.59670164917542"/>
+            <point key="canvasLocation" x="2878" y="108"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="I9t-2Z-DcT">

@@ -16,7 +16,7 @@
 		669FE6D61F0AB32400B579DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669FE6D41F0AB32400B579DE /* LaunchScreen.storyboard */; };
 		D70559B11F0F19DA00C9373C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70559B01F0F19DA00C9373C /* DetailViewController.swift */; };
 		D70877C11F0EC6B200FB5A19 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */; };
-		D70877C31F0ECA6000FB5A19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70877C21F0ECA6000FB5A19 /* ViewController.swift */; };
+		D70877C31F0ECA6000FB5A19 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70877C21F0ECA6000FB5A19 /* CollectionViewController.swift */; };
 		D70877C71F0ED60C00FB5A19 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70877C61F0ED60C00FB5A19 /* MyCollectionViewCell.swift */; };
 		D771A6471F140C0500CAD06F /* ContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D771A6461F140C0500CAD06F /* ContaViewController.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		669FE6D71F0AB32400B579DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D70559B01F0F19DA00C9373C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		D70877C21F0ECA6000FB5A19 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D70877C21F0ECA6000FB5A19 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		D70877C61F0ED60C00FB5A19 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCollectionViewCell.swift; path = ../MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D771A6461F140C0500CAD06F /* ContaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 				669FE6D41F0AB32400B579DE /* LaunchScreen.storyboard */,
 				669FE6D71F0AB32400B579DE /* Info.plist */,
 				D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */,
-				D70877C21F0ECA6000FB5A19 /* ViewController.swift */,
+				D70877C21F0ECA6000FB5A19 /* CollectionViewController.swift */,
 				D771A6461F140C0500CAD06F /* ContaViewController.swift */,
 				D70559B01F0F19DA00C9373C /* DetailViewController.swift */,
 			);
@@ -165,7 +165,7 @@
 				D70877C11F0EC6B200FB5A19 /* TableViewCell.swift in Sources */,
 				D70559B11F0F19DA00C9373C /* DetailViewController.swift in Sources */,
 				D771A6471F140C0500CAD06F /* ContaViewController.swift in Sources */,
-				D70877C31F0ECA6000FB5A19 /* ViewController.swift in Sources */,
+				D70877C31F0ECA6000FB5A19 /* CollectionViewController.swift in Sources */,
 				669FE6CC1F0AB32400B579DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

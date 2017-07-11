@@ -72,7 +72,7 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         
         if segue.identifier == "showDisciplina" {
             
-            let destination = segue.destination as! ViewController
+            let destination = segue.destination as! CollectionViewController
             
             destination.disciplina = disciplinaSelecionada
         }
