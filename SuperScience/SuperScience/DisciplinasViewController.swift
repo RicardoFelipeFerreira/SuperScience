@@ -83,7 +83,7 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
-        disciplinas = ["Física", "Química", "Biologia", "Matemática"]
+        disciplinas = ["Física", "Química", "Biologia"]
         if searchText == "" {
             table.reloadData()
             return
