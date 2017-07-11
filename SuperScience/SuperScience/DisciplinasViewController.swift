@@ -11,6 +11,14 @@ import UIKit
 class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
     
+//    usar gif com UIImage.
+//    let jeremyGif = UIImage.gifImageWithName("funny")
+//    let imageView = UIImageView(image: jeremyGif)
+//    imageView.frame = CGRect(x: 20.0, y: 50.0, width: self.view.frame.size.width - 40, height: 150.0)
+//    view.addSubview(imageView)
+
+    
+    
     @IBOutlet weak var table: UITableView!
     
     var disciplinas = ["Física", "Biologia", "Química"]
