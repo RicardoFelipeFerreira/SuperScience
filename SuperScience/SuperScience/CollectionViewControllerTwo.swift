@@ -13,7 +13,7 @@ class CollectionViewControllerTwo: UIViewController, UICollectionViewDelegate, U
     @IBOutlet weak var MyCollectionViewCellTwo: UICollectionView!
     
 
-    var imagesTwo = [ "bike", "raio", "tesla"]
+    var imagesTwo = [ "Mecanica", "Eletromagnetismo", "tesla"]
     var labelsTwo = ["aaaa", "bbbb", "cccc"]
     
     var disciplina: String?
@@ -37,8 +37,8 @@ class CollectionViewControllerTwo: UIViewController, UICollectionViewDelegate, U
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collection_cellTwo", for: indexPath) as! MyCollectionViewCellTwo
         
         
-        //cell.myImageViewCellTwo.image = UIImage(named: imagesTwo[indexPath.row])
-        //cell.myLabelViewCellTwo.text = labelsTwo[indexPath.row]
+        cell.myImageViewCellTwo.image = UIImage(named: imagesTwo[indexPath.row])
+        cell.myLabelViewCellTwo.text = labelsTwo[indexPath.row]
         
         //deixar arredondado
         //cell.layer.cornerRadius = 20
