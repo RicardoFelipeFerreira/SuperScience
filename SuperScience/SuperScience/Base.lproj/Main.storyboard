@@ -29,6 +29,16 @@
             </objects>
             <point key="canvasLocation" x="-1323" y="-49"/>
         </scene>
+        <!--Classe-->
+        <scene sceneID="k4N-se-MXM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Classe" id="NsQ-MJ-piT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Classe" image="class" selectedImage="class" id="x4q-lA-kuT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6DJ-Xw-8e6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1322" y="109"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fa3-hn-4sf">
             <objects>
@@ -41,14 +51,16 @@
                     <connections>
                         <segue destination="fZZ-Wu-fgY" kind="relationship" relationship="viewControllers" id="jop-7X-Tqi"/>
                         <segue destination="J3S-Sd-WMI" kind="relationship" relationship="viewControllers" id="0gd-h0-17Y"/>
+                        <segue destination="NsQ-MJ-piT" kind="relationship" relationship="viewControllers" id="21k-9z-BTa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7c-au-qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2194" y="-48"/>
+            <point key="canvasLocation" x="-2023" y="-49"/>
         </scene>
     </scenes>
     <resources>
+        <image name="class" width="25" height="25"/>
         <image name="profile" width="25" height="25"/>
     </resources>
 </document>

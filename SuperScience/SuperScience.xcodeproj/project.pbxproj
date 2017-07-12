@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		661C43031F1564C200D793AF /* CollectionViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C43021F1564C200D793AF /* CollectionViewControllerTwo.swift */; };
 		661C43051F15660B00D793AF /* MyCollectionViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661C43041F15660B00D793AF /* MyCollectionViewCellTwo.swift */; };
+		665307BA1F16878B00211A94 /* ClasseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665307B91F16878B00211A94 /* ClasseViewController.swift */; };
+		665307BC1F1688F800211A94 /* Classe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665307BB1F1688F800211A94 /* Classe.storyboard */; };
 		666FA9CF1F0D657D00FB574F /* Disciplinas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FA9CE1F0D657D00FB574F /* Disciplinas.storyboard */; };
 		666FA9D11F0D65B000FB574F /* Conta.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666FA9D01F0D65B000FB574F /* Conta.storyboard */; };
 		666FA9D71F0D6BE200FB574F /* DisciplinasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666FA9D61F0D6BE200FB574F /* DisciplinasViewController.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		661C43021F1564C200D793AF /* CollectionViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerTwo.swift; sourceTree = "<group>"; };
 		661C43041F15660B00D793AF /* MyCollectionViewCellTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCellTwo.swift; sourceTree = "<group>"; };
+		665307B91F16878B00211A94 /* ClasseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClasseViewController.swift; sourceTree = "<group>"; };
+		665307BB1F1688F800211A94 /* Classe.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Classe.storyboard; sourceTree = "<group>"; };
 		666FA9CE1F0D657D00FB574F /* Disciplinas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Disciplinas.storyboard; sourceTree = "<group>"; };
 		666FA9D01F0D65B000FB574F /* Conta.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Conta.storyboard; sourceTree = "<group>"; };
 		666FA9D61F0D6BE200FB574F /* DisciplinasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinasViewController.swift; sourceTree = "<group>"; };
@@ -80,9 +84,11 @@
 				666FA9D01F0D65B000FB574F /* Conta.storyboard */,
 				669FE6D21F0AB32400B579DE /* Assets.xcassets */,
 				669FE6D41F0AB32400B579DE /* LaunchScreen.storyboard */,
+				665307BB1F1688F800211A94 /* Classe.storyboard */,
 				669FE6D71F0AB32400B579DE /* Info.plist */,
 				D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */,
 				D70877C21F0ECA6000FB5A19 /* CollectionViewController.swift */,
+				665307B91F16878B00211A94 /* ClasseViewController.swift */,
 				D771A6461F140C0500CAD06F /* ContaViewController.swift */,
 				D70559B01F0F19DA00C9373C /* DetailViewController.swift */,
 				661C43021F1564C200D793AF /* CollectionViewControllerTwo.swift */,
@@ -152,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				669FE6D61F0AB32400B579DE /* LaunchScreen.storyboard in Resources */,
+				665307BC1F1688F800211A94 /* Classe.storyboard in Resources */,
 				666FA9CF1F0D657D00FB574F /* Disciplinas.storyboard in Resources */,
 				666FA9D11F0D65B000FB574F /* Conta.storyboard in Resources */,
 				669FE6D31F0AB32400B579DE /* Assets.xcassets in Resources */,
@@ -169,6 +176,7 @@
 				666FA9D71F0D6BE200FB574F /* DisciplinasViewController.swift in Sources */,
 				D70877C71F0ED60C00FB5A19 /* MyCollectionViewCell.swift in Sources */,
 				D70877C11F0EC6B200FB5A19 /* TableViewCell.swift in Sources */,
+				665307BA1F16878B00211A94 /* ClasseViewController.swift in Sources */,
 				661C43031F1564C200D793AF /* CollectionViewControllerTwo.swift in Sources */,
 				661C43051F15660B00D793AF /* MyCollectionViewCellTwo.swift in Sources */,
 				D70559B11F0F19DA00C9373C /* DetailViewController.swift in Sources */,
