@@ -13,8 +13,8 @@ class CollectionViewControllerTwo: UIViewController, UICollectionViewDelegate, U
     @IBOutlet weak var MyCollectionViewCellTwo: UICollectionView!
     
 
-    var imagesTwo = [ "Mecanica", "Eletromagnetismo", "tesla"]
-    var labelsTwo = ["aaaa", "bbbb", "cccc"]
+    var imagesTwo = [ "ForcaEletrica", "CampoEletrico", "DDP", "Capacitor"]
+    var labelsTwo = ["Força de Coulomb", "Campo Elétrico", "Diferença de potencial", "Capacitores"]
     
     var disciplina: String?
     

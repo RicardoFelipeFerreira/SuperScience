@@ -149,7 +149,6 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="euV-F6-8tr">
                                                     <rect key="frame" x="8" y="8" width="156" height="118"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CA-Qd-04y">
                                                     <rect key="frame" x="67.5" y="126" width="37.5" height="18"/>
@@ -223,7 +222,7 @@
                                 </connections>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6Lh-Ic-Q3a">
-                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
+                                <rect key="frame" x="0.0" y="220" width="375" height="398"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f8q-DY-uA7">
                                     <size key="itemSize" width="172" height="172"/>
@@ -241,10 +240,9 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OWm-j8-nXj">
                                                     <rect key="frame" x="8" y="8" width="156" height="118"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofN-Q6-BXm">
-                                                    <rect key="frame" x="67.5" y="126" width="37.5" height="18"/>
+                                                    <rect key="frame" x="68" y="126" width="36" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -256,6 +254,7 @@
                                             <constraint firstItem="ofN-Q6-BXm" firstAttribute="centerX" secondItem="OTp-cE-4NV" secondAttribute="centerX" id="FYP-5d-JFT"/>
                                             <constraint firstItem="ofN-Q6-BXm" firstAttribute="top" secondItem="OWm-j8-nXj" secondAttribute="bottom" id="aBi-IF-1uB"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="OWm-j8-nXj" secondAttribute="trailing" id="bTB-dq-0iu"/>
+                                            <constraint firstItem="ofN-Q6-BXm" firstAttribute="leading" secondItem="OTp-cE-4NV" secondAttribute="leadingMargin" constant="60" id="idq-6O-cnP"/>
                                             <constraint firstItem="OWm-j8-nXj" firstAttribute="leading" secondItem="OTp-cE-4NV" secondAttribute="leadingMargin" id="qcW-Wv-ETe"/>
                                             <constraint firstItem="ofN-Q6-BXm" firstAttribute="leading" secondItem="OTp-cE-4NV" secondAttribute="leadingMargin" constant="60" id="tal-MZ-EiL"/>
                                             <constraint firstItem="OWm-j8-nXj" firstAttribute="top" secondItem="OTp-cE-4NV" secondAttribute="topMargin" id="yz0-xe-Pvb"/>
@@ -272,16 +271,24 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEL-uU-9Q4">
+                                <rect key="frame" x="16" y="118" width="343" height="94"/>
+                                <state key="normal" title="Button" backgroundImage="ForcaEletrica"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.14901960780000001" green="0.35294117650000001" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Lh-Ic-Q3a" firstAttribute="top" secondItem="yEL-uU-9Q4" secondAttribute="bottom" constant="8" symbolic="YES" id="MDL-5A-hMf"/>
                             <constraint firstAttribute="trailing" secondItem="6Lh-Ic-Q3a" secondAttribute="trailing" id="NzP-TS-Ken"/>
                             <constraint firstItem="GXq-MZ-drP" firstAttribute="top" secondItem="qGv-gr-5Bt" secondAttribute="bottom" id="Q9q-Vm-JmZ"/>
+                            <constraint firstItem="yEL-uU-9Q4" firstAttribute="centerX" secondItem="GXq-MZ-drP" secondAttribute="centerX" id="QM4-lY-iCq"/>
+                            <constraint firstItem="yEL-uU-9Q4" firstAttribute="leading" secondItem="prF-bf-Xzc" secondAttribute="leadingMargin" id="YRd-fO-Bdu"/>
                             <constraint firstItem="6Lh-Ic-Q3a" firstAttribute="bottom" secondItem="Qgo-iZ-mJk" secondAttribute="top" id="av6-0t-zbz"/>
                             <constraint firstItem="6Lh-Ic-Q3a" firstAttribute="trailing" secondItem="GXq-MZ-drP" secondAttribute="trailing" id="pUr-9C-e6k"/>
                             <constraint firstItem="6Lh-Ic-Q3a" firstAttribute="leading" secondItem="GXq-MZ-drP" secondAttribute="leading" id="srE-Cg-MQO"/>
-                            <constraint firstItem="6Lh-Ic-Q3a" firstAttribute="top" secondItem="GXq-MZ-drP" secondAttribute="bottom" id="wp2-RF-HLz"/>
+                            <constraint firstItem="yEL-uU-9Q4" firstAttribute="top" secondItem="GXq-MZ-drP" secondAttribute="bottom" constant="10" id="wDH-iI-iqX"/>
+                            <constraint firstItem="6Lh-Ic-Q3a" firstAttribute="top" secondItem="GXq-MZ-drP" secondAttribute="bottom" constant="112" id="wp2-RF-HLz"/>
                             <constraint firstItem="6Lh-Ic-Q3a" firstAttribute="leading" secondItem="prF-bf-Xzc" secondAttribute="leading" id="zWH-yZ-pX4"/>
                         </constraints>
                     </view>
@@ -292,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwA-eD-Smj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1938" y="107"/>
+            <point key="canvasLocation" x="1936.8" y="106.59670164917542"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HnD-Z8-6y8">
@@ -411,6 +418,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ForcaEletrica" width="516" height="294"/>
         <image name="materias" width="25" height="25"/>
     </resources>
 </document>
