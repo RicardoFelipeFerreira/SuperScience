@@ -21,7 +21,7 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     
     @IBOutlet weak var table: UITableView!
     
-    var disciplinas = ["Física", "Biologia", "Química"]
+    var disciplinas = ["Fisica", "Biologia", "Quimica"]
     var icons = ["fisica", "biologia", "quimica"]
     var sets = ["setaVermelho", "setaVerde", "setaAmarelo"]
     var colors = [UIColor(red: 254.0/255.0, green: 241.0/255.0, blue: 241.0/255.0, alpha: 1.0),
@@ -67,9 +67,9 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         
         disciplinaSelecionada = disciplinas[indexPath.row]
         
-        performSegue(withIdentifier: "showDisciplina", sender: self)
+        performSegue(withIdentifier: "show" + disciplinaSelecionada!, sender: self)
+        
     }
-    
     
     
     // MARK: - Navigation
@@ -77,12 +77,21 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == "showDisciplina" {
+        if segue.identifier == "showFisica" {
             
             let destination = segue.destination as! CollectionViewController
             
             destination.disciplina = disciplinaSelecionada
         }
+        if segue.identifier == "showQuimica" {
+            
+            
+        }
+        if segue.identifier == "showBiologia" {
+        
+            
+        }
+        
     
     
     }
