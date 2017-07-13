@@ -42,6 +42,8 @@ class CollectionViewControllerTwo: UIViewController, UICollectionViewDelegate, U
         
         //deixar arredondado
         //cell.layer.cornerRadius = 20
+        cell.myImageViewCellTwo.layer.cornerRadius = 8
+        cell.myImageViewCellTwo.clipsToBounds = true
         
         
         //cell.backgroundColor = indexPath.row % 2 == 0 ? .red : .yellow
