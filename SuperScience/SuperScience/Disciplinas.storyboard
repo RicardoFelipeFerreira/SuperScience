@@ -255,7 +255,7 @@
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEL-uU-9Q4">
                                 <rect key="frame" x="0.0" y="108" width="375" height="110"/>
-                                <state key="normal" backgroundImage="MaisUmBanner"/>
+                                <state key="normal" backgroundImage="BannerVermelho3"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -295,24 +295,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="dfc-5W-csJ">
-                                <rect key="frame" x="0.0" y="239" width="375" height="113"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="dfc-5W-csJ">
+                                <rect key="frame" x="0.0" y="261" width="375" height="113"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="113" id="7gf-OX-qQT"/>
+                                </constraints>
                                 <string key="text">A intensidade da força elétrica de interação entre duas cargas puntiformes é diretamente proporcional ao produto dos módulos das cargas e inversamente proporcional ao quadrado da distância que as separa.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Formuleta" highlightedImage="Formuleta" translatesAutoresizingMaskIntoConstraints="NO" id="b1l-4A-Gnp">
-                                <rect key="frame" x="44" y="360" width="287" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Formuleta" highlightedImage="Formuleta" translatesAutoresizingMaskIntoConstraints="NO" id="b1l-4A-Gnp">
+                                <rect key="frame" x="44" y="382" width="287" height="188"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wPz-qz-UAt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wPz-qz-UAt">
                                 <rect key="frame" x="0.0" y="64" width="375" height="167"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="167" id="wIx-0Z-gNK"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dfc-5W-csJ" firstAttribute="top" secondItem="wPz-qz-UAt" secondAttribute="bottom" constant="30" id="3ei-Bw-Tkq"/>
+                            <constraint firstItem="b1l-4A-Gnp" firstAttribute="top" secondItem="dfc-5W-csJ" secondAttribute="bottom" constant="8" symbolic="YES" id="9kL-8N-8eO"/>
+                            <constraint firstAttribute="trailing" secondItem="wPz-qz-UAt" secondAttribute="trailing" id="BLL-a0-7HH"/>
+                            <constraint firstItem="wPz-qz-UAt" firstAttribute="top" secondItem="gAl-gO-xhb" secondAttribute="bottom" id="FdB-hS-YTO"/>
+                            <constraint firstItem="dfc-5W-csJ" firstAttribute="centerX" secondItem="b1l-4A-Gnp" secondAttribute="centerX" id="NKF-dp-IYi"/>
+                            <constraint firstItem="wPz-qz-UAt" firstAttribute="leading" secondItem="dfc-5W-csJ" secondAttribute="leading" id="P24-r0-xbu"/>
+                            <constraint firstItem="wPz-qz-UAt" firstAttribute="leading" secondItem="qF9-yd-yxz" secondAttribute="leading" id="cUD-r0-jSJ"/>
+                            <constraint firstItem="cnj-PV-aYc" firstAttribute="top" secondItem="b1l-4A-Gnp" secondAttribute="bottom" constant="48" id="eh2-BP-Szz"/>
+                            <constraint firstItem="wPz-qz-UAt" firstAttribute="trailing" secondItem="dfc-5W-csJ" secondAttribute="trailing" id="yMn-Ym-DA1"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="headerImageView" destination="wPz-qz-UAt" id="JJl-nc-GUF"/>
@@ -403,8 +417,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BannerVermelho3" width="1501" height="441"/>
         <image name="Formuleta" width="287" height="223"/>
-        <image name="MaisUmBanner" width="1501" height="440"/>
         <image name="materias" width="25" height="25"/>
     </resources>
 </document>
