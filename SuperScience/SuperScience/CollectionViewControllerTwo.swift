@@ -14,7 +14,7 @@ class CollectionViewControllerTwo: UIViewController, UICollectionViewDelegate, U
     
 
     var imagesTwo = [ "ForcaEletrica", "CampoEletrico", "DDP", "Capacitor"]
-    var labelsTwo = ["Força de Coulomb", "Campo Elétrico", "ddp", "Capacitores"]
+    var labelsTwo = ["Força de Coulomb", "Campo Elétrico", "Ddp", "Capacitores"]
     
     var disciplina: String?
     
