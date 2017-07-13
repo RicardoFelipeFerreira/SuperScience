@@ -148,7 +148,6 @@
 				TargetAttributes = {
 					669FE6C71F0AB32400B579DE = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 4KY332LQ8T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -325,7 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4KY332LQ8T;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SuperScience/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.SuperScience;
@@ -338,7 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4KY332LQ8T;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SuperScience/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.org.eldorado.bepid.SuperScience;
