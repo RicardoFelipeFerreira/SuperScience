@@ -34,6 +34,8 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     var disciplinaSelecionada: String?
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -99,6 +101,17 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+//        var results = [UITextView]()
+//        for subview in searchBar.subviews as [UIView]{
+//            if let textField = subview as? UITextField
+//            {
+//                results +=[textField]
+//            }else {
+//                results +=
+//            }
+//        }
+        
         
         disciplinas = ["Física", "Química", "Biologia"]
         if searchText == "" {

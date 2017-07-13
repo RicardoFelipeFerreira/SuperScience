@@ -13,7 +13,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     @IBOutlet weak var myCollectionViewCell: UICollectionView!
     
     var images = [ "mecanica", "termologia", "optica", "ondas", "eletrostatica", "eletrodinamica", "moderna"]
-    var labels = ["Mecânica", "Termodinâmica", "Óptica", "Ondas", "Elletrostática", "Eletrodinâmica", "Moderna"]
+    var labels = ["Mecânica", "Termodinâmica", "Óptica", "Ondas", "Eletrostática", "Eletrodinâmica", "Moderna"]
     
     var disciplina: String?
     
