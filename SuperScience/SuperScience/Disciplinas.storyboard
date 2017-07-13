@@ -302,10 +302,10 @@
             </objects>
             <point key="canvasLocation" x="1936.8" y="106.59670164917542"/>
         </scene>
-        <!--View Controller-->
+        <!--Content View Controller-->
         <scene sceneID="HnD-Z8-6y8">
             <objects>
-                <viewController id="M8p-Fe-BgF" sceneMemberID="viewController">
+                <viewController id="M8p-Fe-BgF" customClass="ContentViewController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gAl-gO-xhb"/>
                         <viewControllerLayoutGuide type="bottom" id="cnj-PV-aYc"/>
@@ -333,6 +333,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="headerImageView" destination="wPz-qz-UAt" id="JJl-nc-GUF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HFs-ee-bEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
