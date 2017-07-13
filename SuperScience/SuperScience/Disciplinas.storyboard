@@ -96,7 +96,7 @@
                             <constraint firstItem="OeN-9g-SEG" firstAttribute="top" secondItem="Vmi-MH-jiW" secondAttribute="bottom" id="sTV-ol-hJO"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Matérias" image="materias" id="Xl8-Jo-ezj" userLabel="Class"/>
+                    <tabBarItem key="tabBarItem" title="Disciplinas" image="materias" id="Xl8-Jo-ezj" userLabel="Class"/>
                     <navigationItem key="navigationItem" title="Disciplinas" id="Edh-w6-Hft"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
