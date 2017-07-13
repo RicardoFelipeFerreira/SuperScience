@@ -12,8 +12,8 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     
     @IBOutlet weak var myCollectionViewCell: UICollectionView!
     
-    var images = [ "bike", "raio", "tesla"]
-    var labels = ["Mecânica", "Termodinâmica", "Eletrostática"]
+    var images = [ "mecanica", "termologia", "optica", "ondas", "eletrostatica", "eletrodinamica", "moderna"]
+    var labels = ["Mecânica", "Termodinâmica", "Óptica", "Ondas", "Elletrostática", "Eletrodinâmica", "Moderna"]
     
     var disciplina: String?
     
@@ -40,7 +40,9 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         cell.myLabelViewCell.text = labels[indexPath.row]
         
         //deixar arredondado
-        //cell.layer.cornerRadius = 20
+//        cell.layer.cornerRadius = 2
+        cell.myImageViewCell.layer.cornerRadius = 2
+
         
         
 //        cell.backgroundColor = indexPath.row % 2 == 0 ? .red : .yellow
@@ -62,7 +64,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
         print(layout.sectionInset)
         
         
-        let collectionSize = CGSize (width: self.view.frame.width/2 - 20,  height: self.view.frame.width/2 - 20)
+        let collectionSize = CGSize (width: self.view.frame.width/2 - 15,  height: self.view.frame.width/2 - 15)
         
         return collectionSize
         

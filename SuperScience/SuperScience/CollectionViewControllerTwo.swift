@@ -14,7 +14,7 @@ class CollectionViewControllerTwo: UIViewController, UICollectionViewDelegate, U
     
 
     var imagesTwo = [ "ForcaEletrica", "CampoEletrico", "DDP", "Capacitor"]
-    var labelsTwo = ["Força de Coulomb", "Campo Elétrico", "Diferença de potencial", "Capacitores"]
+    var labelsTwo = ["Força de Coulomb", "Campo Elétrico", "ddp", "Capacitores"]
     
     var disciplina: String?
     
@@ -63,7 +63,8 @@ class CollectionViewControllerTwo: UIViewController, UICollectionViewDelegate, U
 //        print(layout.sectionInset)
         
         
-        let collectionSize = CGSize (width: self.view.frame.width/2 - 20,  height: self.view.frame.width/2 - 20)
+        let collectionSize = CGSize (width: self.view.frame.width/2 - 15,  height: self.view.frame.width/2 - 15)
+        
         
         return collectionSize
         
