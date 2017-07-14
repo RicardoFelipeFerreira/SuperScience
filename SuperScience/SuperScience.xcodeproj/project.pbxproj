@@ -63,6 +63,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661D7BFB1F1929A600F9A80F /* FirstCollection */ = {
+			isa = PBXGroup;
+			children = (
+				D70877C61F0ED60C00FB5A19 /* MyCollectionViewCell.swift */,
+				D70877C21F0ECA6000FB5A19 /* CollectionViewController.swift */,
+			);
+			name = FirstCollection;
+			sourceTree = "<group>";
+		};
+		661D7BFC1F1929C400F9A80F /* SecondCollection */ = {
+			isa = PBXGroup;
+			children = (
+				661C43041F15660B00D793AF /* MyCollectionViewCellTwo.swift */,
+				661C43021F1564C200D793AF /* CollectionViewControllerTwo.swift */,
+			);
+			name = SecondCollection;
+			sourceTree = "<group>";
+		};
 		669FE6BF1F0AB32400B579DE = {
 			isa = PBXGroup;
 			children = (
@@ -82,25 +100,12 @@
 		669FE6CA1F0AB32400B579DE /* SuperScience */ = {
 			isa = PBXGroup;
 			children = (
-				D72CAABC1F17E4B600430EFC /* View */,
 				D72CAABB1F17E4AE00430EFC /* Controller */,
 				669FE6CB1F0AB32400B579DE /* AppDelegate.swift */,
-				666FA9D61F0D6BE200FB574F /* DisciplinasViewController.swift */,
-				D70877C61F0ED60C00FB5A19 /* MyCollectionViewCell.swift */,
-				669FE6CF1F0AB32400B579DE /* Main.storyboard */,
-				666FA9CE1F0D657D00FB574F /* Disciplinas.storyboard */,
-				666FA9D01F0D65B000FB574F /* Conta.storyboard */,
+				D72CAABC1F17E4B600430EFC /* View */,
 				669FE6D21F0AB32400B579DE /* Assets.xcassets */,
-				669FE6D41F0AB32400B579DE /* LaunchScreen.storyboard */,
-				665307BB1F1688F800211A94 /* Classe.storyboard */,
 				669FE6D71F0AB32400B579DE /* Info.plist */,
 				D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */,
-				D70877C21F0ECA6000FB5A19 /* CollectionViewController.swift */,
-				665307B91F16878B00211A94 /* ClasseViewController.swift */,
-				D771A6461F140C0500CAD06F /* ContaViewController.swift */,
-				D70559B01F0F19DA00C9373C /* DetailViewController.swift */,
-				661C43021F1564C200D793AF /* CollectionViewControllerTwo.swift */,
-				661C43041F15660B00D793AF /* MyCollectionViewCellTwo.swift */,
 			);
 			path = SuperScience;
 			sourceTree = "<group>";
@@ -109,13 +114,13 @@
 			isa = PBXGroup;
 			children = (
 				D72CAABD1F17E4D600430EFC /* ContentViewController.swift */,
+				661D7BF91F19156C00F9A80F /* GameViewController.swift */,
 				666FA9D61F0D6BE200FB574F /* DisciplinasViewController.swift */,
 				665307B91F16878B00211A94 /* ClasseViewController.swift */,
 				D771A6461F140C0500CAD06F /* ContaViewController.swift */,
 				D70559B01F0F19DA00C9373C /* DetailViewController.swift */,
-				661D7BF91F19156C00F9A80F /* GameViewController.swift */,
-				661D7BF51F19103100F9A80F /* FirstCollection */,
-				661D7BF61F19107C00F9A80F /* SecondCollection */,
+				661D7BFB1F1929A600F9A80F /* FirstCollection */,
+				661D7BFC1F1929C400F9A80F /* SecondCollection */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -123,12 +128,12 @@
 		D72CAABC1F17E4B600430EFC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				661D7BF71F19142900F9A80F /* Game.storyboard */,
 				669FE6CF1F0AB32400B579DE /* Main.storyboard */,
 				666FA9CE1F0D657D00FB574F /* Disciplinas.storyboard */,
 				666FA9D01F0D65B000FB574F /* Conta.storyboard */,
 				669FE6D41F0AB32400B579DE /* LaunchScreen.storyboard */,
 				665307BB1F1688F800211A94 /* Classe.storyboard */,
-				661D7BF71F19142900F9A80F /* Game.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
