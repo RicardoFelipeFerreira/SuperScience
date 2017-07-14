@@ -101,10 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				D72CAABB1F17E4AE00430EFC /* Controller */,
-				669FE6CB1F0AB32400B579DE /* AppDelegate.swift */,
 				D72CAABC1F17E4B600430EFC /* View */,
 				669FE6D21F0AB32400B579DE /* Assets.xcassets */,
 				669FE6D71F0AB32400B579DE /* Info.plist */,
+				669FE6CB1F0AB32400B579DE /* AppDelegate.swift */,
 				D70877C01F0EC6B200FB5A19 /* TableViewCell.swift */,
 			);
 			path = SuperScience;
