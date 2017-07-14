@@ -42,6 +42,7 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         // Do any additional setup after loading the view.
     
     self.navigationController?.navigationBar.isTranslucent = false
+        
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
