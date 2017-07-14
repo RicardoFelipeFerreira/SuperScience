@@ -63,7 +63,7 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
             for subView1 in subView.subviews
             {
                 if subView1.isKind(of: UITextField.self) {
-                    //subView1.backgroundColor = UIColor(colorLiteralRed: 21, green: 59, blue: 0, alpha: 1.0)
+                    subView1.backgroundColor = UIColor(colorLiteralRed: 21.0/255.0, green: 59.0/255.0, blue: 103.0/255.0, alpha: 1.0)
                     //subView1.backgroundColor = UIColor.
                     
                 }
@@ -71,9 +71,9 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
             
         }
         
-        let disc1 = Disciplina(name: "Fisica", icon: "fisica", sets: "setaVermelho", color: UIColor(red: 254.0/255.0, green: 241.0/255.0, blue: 241.0/255.0, alpha: 1.0), txtColor: UIColor(red: 178.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0))
+        let disc1 = Disciplina(name: "Física", icon: "fisica", sets: "setaVermelho", color: UIColor(red: 254.0/255.0, green: 241.0/255.0, blue: 241.0/255.0, alpha: 1.0), txtColor: UIColor(red: 178.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0))
         let disc2 = Disciplina(name: "Biologia", icon: "biologia", sets: "setaVerde", color: UIColor(red: 242.0/255.0, green: 250.0/255.0, blue: 246.0/255.0, alpha: 1.0), txtColor: UIColor(red: 1.0/255.0, green: 115.0/255.0, blue: 55.0/255.0, alpha: 1.0) )
-        let disc3 = Disciplina(name: "Quimica", icon: "quimica", sets: "setaAmarelo", color: UIColor(red: 253.0/255.0, green: 253.0/255.0, blue: 243.0/255.0, alpha: 1.0), txtColor:UIColor(red: 166.0/255.0, green: 182.0/255.0, blue: 12.0/255.0, alpha: 1.0) )
+        let disc3 = Disciplina(name: "Química", icon: "quimica", sets: "setaAmarelo", color: UIColor(red: 253.0/255.0, green: 253.0/255.0, blue: 243.0/255.0, alpha: 1.0), txtColor:UIColor(red: 166.0/255.0, green: 182.0/255.0, blue: 12.0/255.0, alpha: 1.0) )
         
         disciplinas = [disc1, disc2, disc3]
         copyDisciplinas = disciplinas
@@ -125,13 +125,13 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == "showFisica" {
+        if segue.identifier == "showFísica" {
             
             let destination = segue.destination as! CollectionViewController
             
             destination.disciplina = disciplinaSelecionada?.name
         }
-        if segue.identifier == "showQuimica" {
+        if segue.identifier == "showQuímica" {
             
             
         }
