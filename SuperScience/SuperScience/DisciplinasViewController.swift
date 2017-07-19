@@ -56,20 +56,9 @@ class DisciplinasViewController: UIViewController, UITableViewDelegate, UITableV
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        searchBar.backgroundColor = UIColor.red
+       // searchBar.backgroundColor = UIColor.red
         
-        for subView in searchBar.subviews
-        {
-            for subView1 in subView.subviews
-            {
-                if subView1.isKind(of: UITextField.self) {
-                    subView1.backgroundColor = UIColor(colorLiteralRed: 21.0/255.0, green: 59.0/255.0, blue: 103.0/255.0, alpha: 1.0)
-                    //subView1.backgroundColor = UIColor.
-                    
-                }
-            }
-            
-        }
+       
         
         let disc1 = Disciplina(name: "Física", icon: "fisica", sets: "setaVermelho", color: UIColor(red: 254.0/255.0, green: 241.0/255.0, blue: 241.0/255.0, alpha: 1.0), txtColor: UIColor(red: 178.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0))
         let disc2 = Disciplina(name: "Biologia", icon: "biologia", sets: "setaVerde", color: UIColor(red: 242.0/255.0, green: 250.0/255.0, blue: 246.0/255.0, alpha: 1.0), txtColor: UIColor(red: 1.0/255.0, green: 115.0/255.0, blue: 55.0/255.0, alpha: 1.0) )

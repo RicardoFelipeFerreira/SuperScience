@@ -20,19 +20,19 @@
                         <viewControllerLayoutGuide type="bottom" id="OeN-9g-SEG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6wt-bD-aq0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-eI-nFI" customClass="MySearchBar" customModule="SuperScience" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="barTintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <searchBar contentMode="redraw" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-eI-nFI" customClass="MySearchBar" customModule="SuperScience" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="barTintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="dS1-zQ-7sH"/>
                                 </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="158" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vmi-MH-jiW">
-                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="510"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="158" id="5I5-Mh-tOU" customClass="TableViewCell" customModule="SuperScience" customModuleProvider="target">
@@ -121,19 +121,19 @@
                         <viewControllerLayoutGuide type="bottom" id="M2j-ZZ-kSE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oIb-P7-qFe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-n0-Fch" customClass="MySearchBar" customModule="SuperScience" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="barTintColor" red="0.13333333333333333" green="0.3529411764705882" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <searchBar contentMode="redraw" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-n0-Fch" customClass="MySearchBar" customModule="SuperScience" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="barTintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="63k-yM-cY5"/>
                                 </connections>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Cda-tm-WOe">
-                                <rect key="frame" x="0.0" y="108" width="375" height="510"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="510"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FRY-jE-q1Q">
                                     <size key="itemSize" width="172" height="157"/>
@@ -215,19 +215,19 @@
                         <viewControllerLayoutGuide type="bottom" id="Qgo-iZ-mJk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="prF-bf-Xzc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="GXq-MZ-drP" customClass="MySearchBar" customModule="SuperScience" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <color key="barTintColor" red="0.14901960780000001" green="0.35294117650000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <searchBar contentMode="redraw" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXq-MZ-drP" customClass="MySearchBar" customModule="SuperScience" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="barTintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="Xoq-SS-EkJ" id="4AZ-CE-mPm"/>
                                 </connections>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6Lh-Ic-Q3a">
-                                <rect key="frame" x="0.0" y="220" width="375" height="398"/>
+                                <rect key="frame" x="0.0" y="156" width="375" height="398"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f8q-DY-uA7">
                                     <size key="itemSize" width="172" height="155"/>
@@ -264,7 +264,7 @@
                                 </cells>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEL-uU-9Q4">
-                                <rect key="frame" x="0.0" y="108" width="375" height="110"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="110"/>
                                 <state key="normal" backgroundImage="BannerVermelho3"/>
                                 <connections>
                                     <segue destination="G0B-1C-XCt" kind="presentation" id="rkl-OM-Os6"/>
@@ -305,11 +305,11 @@
                         <viewControllerLayoutGuide type="bottom" id="cnj-PV-aYc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qF9-yd-yxz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E0c-CW-xBh">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Xg-9r-dVn">
                                         <rect key="frame" x="-20" y="-20" width="415" height="565"/>
@@ -371,11 +371,11 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZkT-Tz-LsA" customClass="MyNavController" customModule="SuperScience" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="IpW-xP-D4A">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="IpW-xP-D4A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" red="0.18022409081459045" green="0.37577319145202637" blue="0.70799541473388672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.14901960784313725" green="0.3529411764705882" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </textAttributes>
@@ -398,7 +398,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nMo-mS-gMd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HGy-dv-5Co">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Em breve..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baM-0x-EQ8">
@@ -426,7 +426,7 @@
                         <viewControllerLayoutGuide type="bottom" id="0H3-EQ-Hwp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="A1v-Uz-mLG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Em breve..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ko1-C4-NoE">

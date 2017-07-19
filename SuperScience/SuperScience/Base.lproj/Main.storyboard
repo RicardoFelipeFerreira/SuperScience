@@ -47,11 +47,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.14901960784313725" green="0.38431372549019605" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="fZZ-Wu-fgY" kind="relationship" relationship="viewControllers" id="jop-7X-Tqi"/>
-                        <segue destination="J3S-Sd-WMI" kind="relationship" relationship="viewControllers" id="0gd-h0-17Y"/>
                         <segue destination="NsQ-MJ-piT" kind="relationship" relationship="viewControllers" id="21k-9z-BTa"/>
+                        <segue destination="J3S-Sd-WMI" kind="relationship" relationship="viewControllers" id="0gd-h0-17Y"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E7c-au-qr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
